@@ -1,6 +1,7 @@
 package net.boxxed.mccourse;
 
 import net.boxxed.mccourse.block.ModBlocks;
+import net.boxxed.mccourse.enchantment.ModEnchantments;
 import net.boxxed.mccourse.item.ModItemGroup;
 import net.boxxed.mccourse.item.ModItems;
 import net.boxxed.mccourse.util.ModRegistries;
@@ -22,6 +23,7 @@ public class MCCourseMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModRegistries.registerModStuff();
+		ModEnchantments.registerModEnchantments();
 
 	}
 }
